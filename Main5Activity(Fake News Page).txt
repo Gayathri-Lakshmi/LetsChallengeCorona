@@ -1,0 +1,233 @@
+Main5Activity code : 
+
+package com.example.letschallengecorona;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.GridLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+
+public class Main5Activity extends AppCompatActivity {
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate ( savedInstanceState );
+        setContentView ( R.layout.activity_main5 );
+
+    }
+
+    public void toInfo(View view) {
+        String n ="0";
+        switch (view.getId()) {
+            case R.id.button9:
+                n="0";
+                break;
+            case R.id.button10:
+                n="1";
+                break;
+            case R.id.button11:
+                n="2";
+                break;
+            case R.id.button12:
+                n="3";
+                break;
+            case R.id.button13:
+                n="4";
+                break;
+            case R.id.button14:
+                n="5";
+                break;
+            case R.id.button15:
+                n="6";
+                break;
+            case R.id.button16:
+                n="7";
+                break;
+            case R.id.button17:
+                n="8";
+                break;
+            case R.id.button18:
+                n="9";
+                break;
+            case R.id.button19:
+                n="10";
+                break;
+            case R.id.button20:
+                n="11";
+                break;
+            case R.id.button21:
+                n="12";
+                break;
+            case R.id.button22:
+                n="13";
+                break;
+            case R.id.button23:
+                n="14";
+                break;
+
+        }
+        Intent intent= new Intent(getApplicationContext (), Main6Activity.class);
+        intent.putExtra ("String",n);
+        startActivity(intent);
+    }
+}
+
+activity_main5 code:
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main5Activity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back4">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button9"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/us_authorities_have_been_cracking" />
+
+                <Button
+                    android:id="@+id/button10"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/beware_of_emails" />
+
+                <Button
+                    android:id="@+id/button11"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_viral_post_claiming_your_stomach_acid" />
+
+                <Button
+                    android:id="@+id/button12"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/this_bad_health_advice" />
+
+                <Button
+                    android:id="@+id/button13"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_youtube_video" />
+
+                <Button
+                    android:id="@+id/button14"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_viral_whatsapp_post" />
+
+                <Button
+                    android:id="@+id/button15"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_hoax_falsely_claiming" />
+
+                <Button
+                    android:id="@+id/button16"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_fake_screenshot" />
+
+                <Button
+                    android:id="@+id/button17"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/companies_have_been_selling" />
+
+                <Button
+                    android:id="@+id/button18"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/back_in_january" />
+
+                <Button
+                    android:id="@+id/button19"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/fake_hand_sanitiser" />
+
+                <Button
+                    android:id="@+id/button20"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/on_thursday_kebs_released" />
+
+                <Button
+                    android:id="@+id/button21"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/a_message_going_viral_on_whatsapp" />
+
+                <Button
+                    android:id="@+id/button22"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/whatsapp_message_about_nationwide" />
+
+                <Button
+                    android:id="@+id/button23"
+                    style="@android:style/Widget.Button.Inset"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="toInfo"
+                    android:text="@string/rumours_of_panaceas" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

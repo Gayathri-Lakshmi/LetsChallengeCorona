@@ -1,0 +1,85 @@
+Main6Activity code:
+
+package com.example.letschallengecorona;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+
+public class Main6Activity extends AppCompatActivity {
+    static ArrayList<String> info =new ArrayList<> ( );
+    String news = "";
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate ( savedInstanceState );
+        setContentView ( R.layout.activity_main6 );
+        Intent intent = getIntent();
+        String no = intent.getStringExtra ( "String" );
+        info.add("US authorities have been cracking down on fake cures for COVID-19, the disease caused by the novel coronavirus — including colloidal silver, vitamins, teas, and essential oils. None of these are approved treatments or preventative measures against the disease.");
+        info.add("Beware of emails purporting to be from HR departments, executives, and health organizations. Hackers have been using the virus to access computers and steal credentials.\n");
+        info.add("A viral post claiming your stomach acid will kill the coronavirus if you drink enough water has some very bad advice, according to various experts.\n");
+        info.add("This bad health advice has also been spread via voice message.Drinking hot fluids and having water every 15 minutes will not stave off the virus,");
+        info.add("A YouTube video with nearly half a million views falsely and dangerously said that inhaling hot air from a hair dryer can help cure the coronavirus. Inhaling hot air will not thwart COVID-19.\n");
+        info.add("A viral WhatsApp post falsely claimed four people sick with COVID-19 got worse after taking anti-inflammatory drugs. It's not true, the Journal reported, and authorities have debunked the message.\n");
+        info.add("A hoax falsely claiming that emissions from crematoriums in China could be seen from space was first debunked in February. The images were not taken in real time, PolitiFact reports, and most likely come from burning coal and oil.");
+        info.add("A fake screenshot warning people to not open their doors to strangers has been circulating in New Jersey, the UK, and France.\n");
+        info.add("Companies have been selling \"immunity boosting\" products, hinting they can stop the virus spread. According to the World Health Organization, Vitamin C, Zinc, and similar treatments don't have any known effects on preventing contraction of COVID-19. US authorities have been cracking down on products that make false promises about curing or treating the coronavirus.\n");
+        info.add("Back in January, the Indian government itself falsely advised that homeopathy can help prevent and manage coronavirus symptoms, but natural medicines have not been proven to have any effect on the disease.\n" +
+                "\n" +
+                "https://www.buzzfeednews.com/article/nishitajha/coronavirus-india-whatsapp-rumors [here there are ss of whatsapp rumors incase you can images ]\n");
+        info.add(".Fake hand sanitiser racket busted in Hyderabad after 1 lakh bottles sold for Rs 1.4 crore.\n https://www.indiatoday.in/fact-check/story/fake-sanitisers-seized-bangladesh-pics-viral-india-with-communal-spin-1664927-2020-04-09[fake sanitisers]\"It is important to note that the Kenya Bureau of Standards certifies sanitisers based on the following specifications:\\n\" +\n" +
+                "                \"\\n\" +\n" +
+                "                \"Ethanol content of 60% by volume\\n\" +\n" +
+                "                \"PH of between 6-8%\\n\" +\n" +
+                "                \"Microbial efficacy of 99.9%\"");
+        info.add("On Thursday KEBS released names of the hand sanitisers that have not the minimum requirements and warned Kenyans against buying them.\n" +
+                "\n" +
+                "They were:\n" +
+                "\n" +
+                "Angelicas luxury hand sanitiser\n" +
+                "LULU hand sanitiser\n" +
+                "Vicente hand sanitiser,\n" +
+                "San gel sanitiser\n" +
+                "Goldmaxx quality choice sanitiser\n" +
+                "OPTZAH advanced sanitiser\n" +
+                "Dulax sanitiser\n" +
+                "O-germs sanitiser");
+        info.add("A message going viral on WhatsApp claims that it's WHO's procedure and protocol for lockdown.\n" +
+                "The message claims there will be more lockdowns in India in phases.\n" +
+                "The World Health Organisation has nothing to do with the claims made in the message.\n");
+        info.add("WhatsApp message about nationwide lockdown being extended till June is fake, reveals factcheck.");
+        info.add("Rumours Of Panaceas For COVID-19 Abound, But Some Might Do More Harm Than Good\n" +
+                "Across the world, researchers are testing several antiviral drugs for their efficacy in treating COVID-19. So far, no therapeutic drugs have proven to be effective against the novel coronavirus.\n");
+
+        TextView textView=(TextView)findViewById ( R.id.textView2 );
+        news = info.get(Integer.parseInt ( no ));
+        textView.setText (news);
+
+    }
+}
+
+activity_main6.xml code:
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back5"
+        android:text="@string/information"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-160dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

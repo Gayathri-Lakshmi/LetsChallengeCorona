@@ -1,0 +1,54 @@
+strings.xml code:
+
+<resources>
+    <string name="app_name">Lets Challenge Corona</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="create_an_account">Create an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="done">Done</string>
+    <string name="general">General</string>
+    <string name="business">Business</string>
+    <string name="password">Password</string>
+    <string name="purpose">Purpose</string>
+    <string name="e_mail">E-mail</string>
+    <string name="username">Username</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="fake_news">Fake News</string>
+    <string name="social_distance_and_awarness">Social Distance and Awarness</string>
+    <string name="companies">Companies</string>
+    <string name="gmap">GMap</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="rumours_of_panaceas">Rumours Of Panaceas...</string>
+    <string name="whatsapp_message_about_nationwide">WhatsApp message about nationwide...</string>
+    <string name="a_message_going_viral_on_whatsapp">A message going viral on WhatsApp ...</string>
+    <string name="on_thursday_kebs_released">On Thursday KEBS released...</string>
+    <string name="fake_hand_sanitiser">Fake hand sanitiser...</string>
+    <string name="back_in_january">Back in January, ...</string>
+    <string name="companies_have_been_selling">Companies have been selling...</string>
+    <string name="a_fake_screenshot">A fake screenshot...</string>
+    <string name="a_hoax_falsely_claiming">A hoax falsely claiming...</string>
+    <string name="a_viral_whatsapp_post">A viral WhatsApp post...</string>
+    <string name="a_youtube_video">A YouTube video ...</string>
+    <string name="this_bad_health_advice">This bad health advice...</string>
+    <string name="a_viral_post_claiming_your_stomach_acid">A viral post claiming your stomach acid ...</string>
+    <string name="beware_of_emails">Beware of emails...</string>
+    <string name="us_authorities_have_been_cracking">US authorities have been cracking...</string>
+    <string name="information">Information</string>
+    <string name="work_remotely">Work Remotely</string>
+    <string name="p">position</string>
+    <string name="choose_the_district">Choose the district</string>
+    <string name="click_on_the_following_districts_to_get_the_hospitals_and_medical_stores_in_the_areas">Click on the following districts to get the hospitals and medical stores in the areas</string>
+    <string name="working_remotely">Working Remotely</string>
+    <string name="Hyderabad">
+        <a href= "https://www.google.com/search?biw=1536&amp;bih=722&amp;tbm=lcl&amp;sxsrf=ALeKk016iFeiDFJ7GpoJXFRPdCrJE42oCw%3A1587202136320&amp;ei=WMiaXpKiE72O4-EP9KiEqAE&amp;q=list+of+medical+stores+and+hospitals+in+hyderabad&amp;oq=list+of+medical+stores+and+hospitals+in+hy&amp;gs_l=psy-ab.3.0.33i22i29i30k1.43057.46114.0.48437.8.8.0.0.0.0.386.1359.2-4j1.5.0....0...1c.1.64.psy-ab..3.5.1354...35i39k1.0.Vp3ABbgYIOw#rlfi=hd:;si:;mv:[[17.504265099999998,78.52877509999999],[17.2898384,78.3904991]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"> Hyderabad</a>
+    </string>
+    <string name="Sundarnagar">
+        <a href= "https://www.google.com/search?biw=1536&amp;bih=722&amp;tbm=lcl&amp;sxsrf=ALeKk01uLTC4hZMhl4M1POzSTSJh8Mvlqg%3A1587202186185&amp;ei=isiaXrTrCoOR4-EPit2ksAM&amp;q=list+of+medical+stores+and+hospitals+in+sundargarh&amp;oq=list+of+medical+stores+and+hospitals+in+sundargarh&amp;gs_l=psy-ab.3..33i160k1.33714.39169.0.39444.19.14.0.0.0.0.1009.2082.2-3j1j7-1.5.0....0...1c.1.64.psy-ab..14.5.2078...35i39k1j33i21k1j33i10i160k1.0.m4XvOjuL9gc#rlfi=hd:;si:;mv:[[22.179904699999998,84.11134419999999],[22.098261900000004,84.0279441]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"> Sundarnagar</a>
+    </string>
+    <string name="Guntur">
+        <a href= "https://www.google.com/search?sxsrf=ALeKk02gAnD5Wr1vDAVjnuXTDgn97H6ThQ:1587202131213&amp;q=list+of+medical+stores+and+hospitals+in+guntur&amp;npsic=0&amp;rflfq=1&amp;rldoc=1&amp;rlha=0&amp;rllag=16301198,80436676,991&amp;tbm=lcl&amp;sxsrf=ALeKk02gAnD5Wr1vDAVjnuXTDgn97H6ThQ:1587202131213&amp;sa=X&amp;ved=2ahUKEwimwt7Z1PHoAhX5zTgGHVbgD_oQjGp6BAgMEDk&amp;biw=1536&amp;bih=722#rlfi=hd:;si:;mv:[[16.331759299999998,80.4634884],[16.2809866,80.4115498]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2"> Guntur</a>
+    </string>
+</resources>
