@@ -7,7 +7,7 @@ FAKE NEWS,
 SOCIAL DISTANCING AWARENESS,
 ALERT OF RED ZONE AREAS and
 WORKING REMOTELY
-# Images
+# Preview of the APP
 ![](LCC%20image.jpeg)
 # Technology used
 Android Studio
