@@ -8,6 +8,6 @@ SOCIAL DISTANCING AWARENESS,
 ALERT OF RED ZONE AREAS and
 WORKING REMOTELY
 # Images
-![](LCCimage.jpeg)
+![](LCC%20image.jpeg)
 # Technology used
 Android Studio
